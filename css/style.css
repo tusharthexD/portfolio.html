@@ -3,11 +3,10 @@ body{
 
 }
 .body{
-    background-color: #F6F1E9;
+    background-color: black;
     border: 3px solid ;
     box-shadow: 5px 5px;
     border-radius: 20px;
-    margin: 1px;
     word-wrap: break-word;
     
 }
@@ -37,6 +36,8 @@ h1{
           margin-top: 40px;
     }
     h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
         font-size: 40px;
     }
 .features{
