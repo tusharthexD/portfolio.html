@@ -3,11 +3,14 @@ body{
 
 }
 .body{
-    background-color: black;
+    background-color: white;
     border: 3px solid ;
     box-shadow: 5px 5px;
     border-radius: 20px;
     word-wrap: break-word;
+    height: 100%;
+   width: 100%;
+   margin: 10px;
     
 }
 
