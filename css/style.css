@@ -3,21 +3,21 @@ body{
 
 }
 .body{
-    background-color: white;
+    background-color: #F6F1E9;
     border: 3px solid ;
     box-shadow: 5px 5px;
     border-radius: 20px;
+    margin: 30px;
+    margin-top: 20px;
     word-wrap: break-word;
-    margin: 12px;
-
     
 }
 
 
 h1{
-    font-family: helvetica;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 50px;
     
        
      }
@@ -31,16 +31,23 @@ h1{
 }
 
 
+@media (max-width: 576px){
+    h1{
+        font-size: 30px;
+    }
+ 
+    p{
+        font-size: 15px;
+    }
 
+}
 
 @media (max-width: 768px){
+    .body{margin: 10px;
+          margin-top: 10px;
     }
-    h1{
-        font-family: helvetica;
-        font-weight: normal;
-        font-size: 40px;
-    }
-.features{
+    
+    .features{
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -51,7 +58,7 @@ h1{
         
 }
 @media (max-width: 280px){
-      .tushar{
+    .tushar{
       display: none;
     }
     .btn{
