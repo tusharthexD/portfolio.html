@@ -12,12 +12,6 @@ body{
     word-wrap: break-word;
     
 }
-.nav-item{
-    color: #000000;
-    font-weight: bold;
-}
-
-
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
@@ -25,10 +19,6 @@ h1{
     
        
      }
-
-
-
-
 
 @media (max-width: 992px){
     .body{margin: 20px;
@@ -77,7 +67,7 @@ h1{
    
 }
 
-.navbar-toggler:hover:hover{
+.navbar-toggler:hover{
     transform: translate(-4px,-4px);
     box-shadow: 6px 6px #000000;
     background-color: #FFD93D;
@@ -112,7 +102,7 @@ h1{
     width: 60px;
     text-align: center;
   }
-  .fa:hover {
+.fa:hover {
   opacity: 0.7;
 }
 .social{ 
