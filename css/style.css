@@ -12,6 +12,10 @@ body{
     word-wrap: break-word;
     
 }
+.nav-item{
+    color: #000000;
+    font-weight: bold;
+}
 
 
 h1{
@@ -31,7 +35,7 @@ h1{
           margin-top: 20px;
     }
     h1{
-        font-size: 40px;
+        font-size: 30px;
     }
 .features{
         display: flex;
@@ -41,7 +45,6 @@ h1{
         height: auto;
         margin: 20px;
     }
-        
 }
 @media (max-width: 280px){
     .tushar{
@@ -56,17 +59,31 @@ h1{
 
 }
 .paragraph{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .btn{
-    background-color: #FF8400;
+    background-color: #ff8400;
     border-radius: 30px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px;
     border: 3px solid;
     color: black;
 }
+.navbar-toggler{
+    background-color: #FFD93D;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid;
+    color: black;
+   
+}
 
-.primary-button:hover {
+.navbar-toggler:hover:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border:3px solid;}
+
+.primary-button:hover{
     transform: translate(-4px,-4px);
     box-shadow: 6px 6px #000000;
     background-color: #FFD93D;
@@ -88,3 +105,24 @@ h1{
     background-color: #4f200d;
     border:3px solid;
 }
+
+.fa {
+    
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+  }
+  .fa:hover {
+  opacity: 0.7;
+}
+.social{ 
+    background-color: wheat;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+    position: relative;
+    margin-right: 50px;
+}
+
