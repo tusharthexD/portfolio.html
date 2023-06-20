@@ -74,7 +74,7 @@ body{
     border-radius: 30px;
     box-shadow: 2px 2px black;
     border: 3px solid black;
-    color: rgb(202, 202, 202);
+    color: white;
     
 }
 .btn2:hover{
@@ -135,8 +135,8 @@ body{
     transform: translate(-4px,-4px);
     color: #F6F1E9;
     box-shadow: 6px 6px #000000;
-    background-color: #4f200d;
-    border:3px solid;
+    background-color: #6f402d;
+    border:3px solid black;
 }
 
 .fa {
@@ -192,7 +192,7 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .container {
+  .contcontainer {
     background-color: white;
     border-radius: .75rem;
     box-shadow: 5px 5px;
@@ -201,3 +201,10 @@ input[type=text], select, textarea {
     padding: 20px;
     font-style:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+  input[type=text]:hover, select:hover, textarea:hover {
+    transform: translate(-4px,-4px);
+    color: #F6F1E9;
+    box-shadow: 6px 6px #000000;
+    background-color: #ffffff;
+    border:3px solid black;
+}
