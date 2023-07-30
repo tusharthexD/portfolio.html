@@ -108,12 +108,25 @@ body{
     color: black;
    
 }
+.navbar-toggler:focus{
+    background-color: #FFD93D;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid;
+    color: black;
+   
+}
+
 
 .navbar-toggler:hover{
     transform: translate(-4px,-4px);
-    box-shadow: 6px 6px #000000;
+    box-shadow: 5px 5px #000000;
     background-color: #ff8400;
-    border:3px solid;}
+    border:3px solid;
+    border-radius: 30px;
+    transition: all ease-in-out 500ms;
+    
+}
 
 .primary-button:hover{
     transform: translate(-4px,-4px);
@@ -160,7 +173,9 @@ body{
 }
 
 
+
 input[type=text], select, textarea {
+    color: #000000;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 3px solid black; /* Gray border */
@@ -176,35 +191,39 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: #ff8400;
     border-radius: 30px;
-    box-shadow: 2px 2px black;
+    box-shadow: 3px 3px black;
     border: 3px solid black;
     color: black;
     padding: 6px;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+    transition: all ease-in-out 800ms;
     transform: translate(-4px,-4px);
+    
+
+}
+input[type=submit]:hover {
     color: #000000;
+    padding: 6px;
     box-shadow: 6px 6px #000000;
     background-color: #FFD93D;
-    border:3px solid;
-  }
+    border: 3px solid black;
+    border-radius: 30px;
+}
   
-  /* Add a background color and some padding around the form */
-  .contcontainer {
+.contcontainer {
     background-color: white;
     border-radius: .75rem;
     box-shadow: 5px 5px;
     border: 3px solid;
     color: black;
     padding: 20px;
-    font-style:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
   input[type=text]:hover, select:hover, textarea:hover {
     transform: translate(-4px,-4px);
-    color: #F6F1E9;
+    color: #000000;
     box-shadow: 6px 6px #000000;
     background-color: #ffffff;
     border:3px solid black;
 }
+
+
