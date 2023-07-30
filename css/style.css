@@ -188,8 +188,13 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     box-shadow: 3px 3px ;  
+    outline: none;
 }
   
+
+
+
+
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #ff8400;
@@ -221,12 +226,14 @@ input[type=submit]:hover {
     padding: 20px;
   }
 
-  input[type=text]:hover, select:hover, textarea:hover {
+
+input[type=text]:active, select:active, textarea:active {
     transform: translate(-4px,-4px);
     color: #000000;
-    box-shadow: 6px 6px #000000;
-    background-color: #ffffff;
     border:3px solid black;
+    
 }
+
+
 
 
