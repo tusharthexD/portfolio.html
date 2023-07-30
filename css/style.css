@@ -23,6 +23,7 @@ body{
     margin: 80px;
     margin-top: 60px;
     word-wrap: break-word;
+    
 }
 
 
@@ -170,9 +171,12 @@ body{
     box-shadow: 5px 5px;
     border: 3px solid;
     color: black;
-    padding: 20px;
-    position: relative;
-    margin-right: 50px;
+    position: absolute;
+    min-width: 50px;
+    
+
+  
+  
 }
 
 
