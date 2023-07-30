@@ -99,6 +99,7 @@ body{
     border:3px solid black;
     color: #000000;
 }
+   
 
 .navbar-toggler{
     background-color: #FFD93D;
@@ -108,23 +109,25 @@ body{
     color: black;
    
 }
+.navbar-toggler:active{
+    transform: translate(-4px,-4px);
+}
+
 .navbar-toggler:focus{
-    background-color: #FFD93D;
+    background-color: #ff8400;
     border-radius: 30px;
     box-shadow: 2px 2px black;
     border: 3px solid;
     color: black;
    
 }
-
-
 .navbar-toggler:hover{
-    transform: translate(-4px,-4px);
+    
     box-shadow: 5px 5px #000000;
     background-color: #ff8400;
     border:3px solid;
     border-radius: 30px;
-    transition: all ease-in-out 500ms;
+    
     
 }
 
